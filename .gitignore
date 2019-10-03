@@ -8,7 +8,6 @@ bin/
 # dependencies
 node_modules/
 node/
-target/
 
 # IDEs and editors
 /.idea
