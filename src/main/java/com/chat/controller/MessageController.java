@@ -30,7 +30,7 @@ public class MessageController {
     this.messageService.newMessage(messageBody);
   }
 
-  @RequestMapping("/greeting")
+  @RequestMapping("/createdb")
   public String createNewDatabase() {
     MongoClient mongoClient = new MongoClient();
     MongoDatabase database = mongoClient.getDatabase("chatApp");
